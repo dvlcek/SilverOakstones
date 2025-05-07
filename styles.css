@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body, html {
+    font-family: "Playfair Display", serif;
+    background-color: #141414;
+    
+    color: #e0e0e0;
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3 {
+    color: #f7f7f7;
+  }
+  .site-header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px 30px;
+    z-index: 1000;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  .header-button {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .btn {
+    background-color: #223a0fce;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #365c17ce;
+  }
+  
+  .hero {
+    position: relative;
+    z-index: 1; /* This creates a stacking context */
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    max-width: 100%;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.753); /* Dark overlay */
+    z-index: 1;
+  }
+  .hero-content{
+    position: relative;
+    z-index: 2;
+  
+  }
+  .bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+  }
+  section {
+    background-color: #141414;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .motivation {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+  }
+  .about-text, .about-image {
+    flex: 1;
+  }
+  .about-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .perks {
+    text-align: center;
+  }
+  .perk-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .perk {
+    padding: 20px;
+    max-width: 300px;
+  }
+  .mentality, .membership {
+
+    padding: 60px 20px;
+  }
+  .membership ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .membership li {
+    margin-bottom: 10px;
+    border-left: 4px solid #d4af37;
+    padding-left: 10px;
+  }
+  footer {
+    color: #ccc;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .footer-logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
