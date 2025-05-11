@@ -124,7 +124,7 @@ section {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 90px;
   align-items: center;
   text-align: left;
 }
@@ -136,20 +136,39 @@ section {
 }
 .perks {
   text-align: center;
+  padding: 60px 20px;
 }
+
+.perks-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #999999;
+}
+
 .perk-cards {
   display: flex;
-  flex-wrap: wrap;
   gap: 30px;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-top: 40px;
 }
+
 .perk {
-  padding: 20px;
-  max-width: 450px;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 300px;
+  flex: 1 1 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.perk p{
-  text-align: justify;
+
+.perk h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.perk p {
+  color: #7a7a7a;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 .mentality, .membership {
 
