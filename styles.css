@@ -24,11 +24,11 @@ h2 {
 }
 h3 {
   margin-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 300;
 }
 p{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .site-header {
   width: 100%;
@@ -122,9 +122,11 @@ section {
 }
 .about-content {
   display: flex;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
   gap: 40px;
   align-items: center;
+  text-align: left;
 }
 .about-text, .about-image {
   flex: 1;
@@ -145,6 +147,9 @@ section {
 .perk {
   padding: 20px;
   max-width: 450px;
+}
+.perk p{
+  text-align: justify;
 }
 .mentality, .membership {
 
