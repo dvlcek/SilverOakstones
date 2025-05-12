@@ -63,7 +63,7 @@ p{
 }
 
 .btn {
-  background-color: #223a0fce;
+  background-color: #69746E;
   color: #ffffff;
   padding: 10px 20px;
   text-decoration: none;
@@ -72,7 +72,7 @@ p{
 }
 
 .btn:hover {
-  background-color: #365c17ce;
+  background-color: #223a0fce;
 }
 
 .hero {
