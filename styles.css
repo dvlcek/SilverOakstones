@@ -236,6 +236,7 @@ footer {
 }
 .foot-main{
   max-width: 300px;
+  text-align: left;
 }
 .footer-logo {
   max-width: 250px;
