@@ -234,7 +234,10 @@ footer {
   background-repeat: no-repeat;
   
 }
+.foot-main{
+  max-width: 300px;
+}
 .footer-logo {
-  max-width: 100px;
+  max-width: 250px;
   margin-bottom: 20px;
 }
