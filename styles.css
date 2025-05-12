@@ -218,11 +218,21 @@ section {
   padding-left: 10px;
 } */
 footer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
   color: #ccc;
   text-align: center;
   padding: 40px 20px;
   font-size: 1.1rem;
   color: #999999;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  background-image: url('media/footer.png');
+  background-repeat: no-repeat;
+  
 }
 .footer-logo {
   max-width: 100px;
