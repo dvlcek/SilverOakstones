@@ -223,11 +223,12 @@ section {
 footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 50px;
   align-items: center;
   color: #ccc;
   text-align: center;
-  padding: 40px 20px;
+  padding: 40px 50px;
   font-size: 1.1rem;
   color: #999999;
   z-index: 0;
