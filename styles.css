@@ -173,8 +173,8 @@ section {
 .perk p {
   color: #575757
 ;
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 .perk:nth-child(1) {
   background-image: url('media/2.png');
