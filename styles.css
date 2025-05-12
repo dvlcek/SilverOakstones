@@ -11,7 +11,7 @@ body, html {
   scroll-behavior: smooth;
 }
 h1, h2, h3 {
-  color: #e4e6ee;
+  color: #F0EDE6;
 }
 h1 {
   font-size: 3rem;
@@ -134,13 +134,26 @@ section {
 .about-text, .about-image {
   flex: 1;
 }
+.about-text p{
+  font-size: 1.2rem;
+  line-height: 1.4;
+  text-align: justify;
+  color: #F0EDE6;
+}
+.about-text li{
+  color: #F0EDE6;
+  font-size: 1.2rem;
+  margin-top: 1em; 
+  padding-left: 0.5em; 
+  margin-left: 1rem;
+}
 .about-image img {
   width: 100%;
 }
 .perks-subtitle {
   font-size: 1.1rem;
   margin-bottom: 40px;
-  color: #999999;
+  color: #F0EDE6;
 }
 
 .perk-cards {
