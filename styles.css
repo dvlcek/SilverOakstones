@@ -30,6 +30,9 @@ h3 {
 p{
   font-size: 1.3rem;
 }
+.font-style{
+  font-family: "Instrument Sans", sans-serif;
+}
 .site-header {
   width: 100%;
   top: 0;
@@ -171,10 +174,10 @@ section {
 }
 
 .perk p {
-  color: #575757
-;
+  color: #575757;
   font-size: 1.2rem;
   line-height: 1.4;
+  text-align: justify;
 }
 .perk:nth-child(1) {
   background-image: url('media/2.png');
