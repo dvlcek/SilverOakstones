@@ -127,3 +127,25 @@ textarea {
 .nav-buttons button:hover {
   background: #555;
 }
+.custom-alert {
+  position: fixed;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1b1313;
+  color: #F0EDE6;
+  padding: 15px 25px;
+  border: 1px solid #69746E;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-family: "Times New Roman", Times, serif;
+  z-index: 9999;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.custom-alert.show {
+  opacity: 1;
+  pointer-events: auto;
+}
