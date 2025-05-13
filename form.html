@@ -27,32 +27,169 @@
 
   <!-- Fullscreen Form Wrapper -->
   <main class="form-wrapper">
-    <div class="question active">
-      <label>Aké je vaše meno?</label>
-      <input type="text" id="q1">
-      <div class="nav-buttons">
-        <button onclick="nextQuestion()">Ďalej</button>
-      </div>
+  <div class="question active">
+    <label>Aké je vaše meno?</label>
+    <input type="text" id="q1">
+    <div class="nav-buttons">
+      <button onclick="nextQuestion()">Ďalej</button>
     </div>
+  </div>
 
-    <div class="question">
-      <label>Aký je váš e-mail?</label>
-      <input type="email" id="q2">
-      <div class="nav-buttons">
-        <button onclick="prevQuestion()">Späť</button>
-        <button onclick="nextQuestion()">Ďalej</button>
-      </div>
+  <div class="question">
+    <label>Aký je váš e-mail?</label>
+    <input type="email" id="q2">
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">Späť</button>
+      <button onclick="nextQuestion()">Ďalej</button>
     </div>
+  </div>
 
-    <div class="question">
-      <label>Prečo sa chcete pridať?</label>
-      <textarea id="q3"></textarea>
-      <div class="nav-buttons">
-        <button onclick="prevQuestion()">Späť</button>
-        <button onclick="submitForm()">Odoslať</button>
-      </div>
+  <div class="question">
+    <label>Telefónne číslo</label>
+    <input type="tel" id="q3">
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">Späť</button>
+      <button onclick="nextQuestion()">Ďalej</button>
     </div>
-  </main>
+  </div>
+
+  <div class="question">
+    <label>V akej krajine/meste žijete?</label>
+    <input type="text" id="q4">
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">Späť</button>
+      <button onclick="nextQuestion()">Ďalej</button>
+    </div>
+  </div>
+
+  <div class="question">
+    <label>Ako by ste stručne opísali seba a svoju životnú filozofiu?</label>
+    <textarea id="q5"></textarea>
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">Späť</button>
+      <button onclick="nextQuestion()">Ďalej</button>
+    </div>
+  </div>
+
+  <div class="question">
+    <label>Aký je váš hlavný zdroj príjmu alebo podnikania?</label>
+    <input type="text" id="q6">
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">Späť</button>
+      <button onclick="nextQuestion()">Ďalej</button>
+    </div>
+  </div>
+
+  <div class="question">
+  <label>Aký je váš ročný príjem (približne)?</label>
+  <div id="q7">
+    <label class="custom-radio">
+      <input type="radio" name="income" value="Menej ako 50 000 €">
+      <span class="radio-style">Menej ako 50 000 €</span>
+    </label><br>
+    <label class="custom-radio">
+      <input type="radio" name="income" value="50 000 – 100 000 €">
+      <span class="radio-style">50 000 – 100 000 €</span>
+    </label><br>
+    <label class="custom-radio">
+      <input type="radio" name="income" value="100 000 – 500 000 €">
+      <span class="radio-style">100 000 – 500 000 €</span>
+    </label><br>
+    <label class="custom-radio">
+      <input type="radio" name="income" value="500 000 € a viac">
+      <span class="radio-style">500 000 € a viac</span>
+    </label>
+  </div>
+  <div class="nav-buttons">
+    <button onclick="prevQuestion()">Späť</button>
+    <button onclick="nextQuestion()">Ďalej</button>
+  </div>
+</div>
+
+
+  <div class="question">
+    <label>Čo vás motivuje stať sa členom Silver Oakstone?</label>
+    <textarea id="q8"></textarea>
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">Späť</button>
+      <button onclick="nextQuestion()">Ďalej</button>
+    </div>
+  </div>
+
+  <div class="question">
+    <label>Kde sa vidíte o 3 roky a čo pre to robíte dnes?</label>
+    <textarea id="q9"></textarea>
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">Späť</button>
+      <button onclick="nextQuestion()">Ďalej</button>
+    </div>
+  </div>
+
+  <div class="question">
+    <label>Aké hodnoty sú pre vás v živote najdôležitejšie?</label>
+    <input type="text" id="q10">
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">Späť</button>
+      <button onclick="nextQuestion()">Ďalej</button>
+    </div>
+  </div>
+
+  <div class="question">
+  <label>Ste pripravený investovať čas, energiu a prostriedky do svojho rastu?</label>
+  <div id="q11">
+    <label class="custom-radio">
+      <input type="radio" name="commitment" value="Áno, absolútne">
+      <span class="radio-style">Áno, absolútne</span>
+    </label><br>
+    <label class="custom-radio">
+      <input type="radio" name="commitment" value="Áno, ale nie hneď">
+      <span class="radio-style">Áno, ale nie hneď</span>
+    </label><br>
+    <label class="custom-radio">
+      <input type="radio" name="commitment" value="Nie som si istý/á">
+      <span class="radio-style">Nie som si istý/á</span>
+    </label>
+  </div>
+  <div class="nav-buttons">
+    <button onclick="prevQuestion()">Späť</button>
+    <button onclick="nextQuestion()">Ďalej</button>
+  </div>
+</div>
+
+
+  <div class="question">
+    <label>Aký druh ľudí vyhľadávate vo svojom živote a biznise?</label>
+    <textarea id="q12"></textarea>
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">Späť</button>
+      <button onclick="nextQuestion()">Ďalej</button>
+    </div>
+  </div>
+
+  <div class="question">
+    <label>Ste ochotný platiť členský poplatok za prístup k exkluzívnej komunite a službám?</label>
+    <div id="q13">
+      <label class="custom-radio">
+        <input type="radio" name="payment" value="Áno">
+        <span class="radio-style">Áno</span>
+      </label><br>
+      <label class="custom-radio">
+        <input type="radio" name="payment" value="Záleží od prínosu">
+        <span class="radio-style">Záleží od prínosu</span>
+      </label><br>
+      <label class="custom-radio">
+        <input type="radio" name="payment" value="Nie">
+        <span class="radio-style">Nie</span>
+      </label>
+    </div>
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">Späť</button>
+      <button onclick="submitForm()">Odoslať</button>
+    </div>
+  </div>
+
+<div id="form-alert" style="color: red; margin-top: 1rem;"></div>
+
 
   <script src="script.js"></script>
   <div id="customAlert" class="custom-alert"></div>

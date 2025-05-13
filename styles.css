@@ -18,7 +18,7 @@ h1, h2, h3 {
 }
 h1 {
   font-size: 3.5rem;
-  font-weight: 300;
+  font-weight: bold;
 }
 h2 {
   margin-bottom: 1rem;
@@ -114,10 +114,11 @@ p{
 
 .hero-content p {
   position: absolute;
-  top: 2rem;
+  top: 0rem;
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
+  font-size: 1rem;
 }
 
 .bg-video {

@@ -95,9 +95,9 @@ label {
 
 input, textarea {
   font-size: 1rem;
+  width: 100%; /* takes full width of parent */
+  max-width: 500px;
   padding: 0.75rem;
-  width: 80%;
-  max-width: 400px;
   margin-bottom: 2rem;
   border: 1px solid #adadad;
   background-color: #141414;
@@ -105,10 +105,61 @@ input, textarea {
   border-radius: 4px;
 }
 
+
+.check-box {
+  border: 1px solid #adadad;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.2rem;
+  margin-bottom: 0rem;
+}
 textarea {
   min-height: 100px;
 }
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  margin-bottom: 0rem;
 
+}
+.custom-radio {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+.custom-radio input {
+  display: none;
+}
+
+.radio-style {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  margin: 4px 0;
+  border: 1px solid #adadad;
+  background-color: #141414;
+  color: #adadad;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.custom-radio input:checked + .radio-style {
+  background-color: #333333;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.radio-style:hover {
+  background-color: #1e1e1e;
+}
 .nav-buttons {
   display: flex;
   gap: 1rem;
