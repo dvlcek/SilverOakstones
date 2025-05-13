@@ -48,7 +48,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -113,6 +113,22 @@ p{
   position: absolute;
   z-index: 0;
 }
+.cta-button {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 0.75rem 2rem;
+  background-color:#69746E;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #223a0fce;
+}
+
 section {
   background-color: #141414;
   padding: 60px 20px;
@@ -196,15 +212,15 @@ section {
   text-align: justify;
 }
 .perk:nth-child(1) {
-  background-image: url('media/2.png');
+  background-image: url('media/wattermark/2.png');
   background-size: cover;
 }
 .perk:nth-child(2) {
-  background-image: url('media/3.png');
+  background-image: url('media/wattermark/3.png');
   background-size: cover;
 }
 .perk:nth-child(3) {
-  background-image: url('media/4.png');
+  background-image: url('media/wattermark/4.png');
   background-size: cover;
 }
 .mentality, .membership {
@@ -234,7 +250,7 @@ footer {
   z-index: 0;
   background-size: cover;
   background-position: center;
-  background-image: url('media/footer.png');
+  background-image: url('media/wattermark/footer.png');
   background-repeat: no-repeat;
   
 }
