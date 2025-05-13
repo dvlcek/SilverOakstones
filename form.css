@@ -31,7 +31,7 @@ html, body {
 }
 
 .logo img {
-  width: 200px;
+  width: 250px;
 }
 
 .spacer {
@@ -89,7 +89,7 @@ html, body {
 }
 
 label {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 

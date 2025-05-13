@@ -16,6 +16,8 @@ function nextQuestion() {
   if (current < questions.length - 1) {
     current++;
     showQuestion(current);
+  } else {
+    submitForm(); // Automatically submit if it's the last question
   }
 }
 
@@ -25,6 +27,7 @@ function prevQuestion() {
     showQuestion(current);
   }
 }
+
 function showAlert(message) {
   const alertBox = document.getElementById('customAlert');
   alertBox.textContent = message;
@@ -69,9 +72,20 @@ function submitForm() {
     showQuestion(current);
     return;
   }
+  
+
   // If all passed, you can proceed here
   showAlert('Ďakujeme za odoslanie!');
   console.log({ name, email, reason });
+
+  // Here you could send data to a server
+  // or redirect to a thank-you page
 }
 
-
+// Event listener to allow submitting the form with the Enter key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter') {
+    event.preventDefault(); // Prevent the default behavior (like submitting the form)
+    nextQuestion(); // Call nextQuestion() when Enter is pressed
+  }
+});
