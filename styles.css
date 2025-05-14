@@ -313,6 +313,9 @@ footer {
   background-repeat: no-repeat;
   
 }
+footer h3 {
+  font-size: 2rem;
+}
 .foot-main{
   max-width: 300px;
   text-align: left;
