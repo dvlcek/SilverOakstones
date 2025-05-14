@@ -297,6 +297,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  max-width: 1500px;
+  margin: auto;
   gap: 50px;
   align-items: center;
   color: #ccc;
@@ -318,4 +320,16 @@ footer {
 .footer-logo {
   max-width: 250px;
   margin-bottom: 20px;
+}
+.copyright {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  padding: 10px 0;
+
 }
