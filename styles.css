@@ -242,10 +242,52 @@ section {
 
   padding: 60px 20px;
 }
-.membership ul {
-  list-style: none;
-  padding-left: 0;
+.mentality {
+  max-width:900px;
 }
+.mentality{
+  text-align: center;
+  color: #F0EDE6;
+}
+.mentality-list{
+  text-align: left;
+}
+.membership li, .mentality li{
+  color: #F0EDE6;
+  font-size: 1.1rem;
+  margin-top: 0.5em;
+  padding-left: 0.5em;
+  margin-left: 1rem;
+}
+.membership p{
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: justify;
+  color: #F0EDE6;
+  margin-bottom: 1rem;
+}
+.membership-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row-reverse;
+  text-align: left;
+}
+
+.membership-text,
+.membership-image {
+  flex: 1 1 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.membership-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 /* .membership li {
   margin-bottom: 10px;
   border-left: 4px solid #d4af37;
